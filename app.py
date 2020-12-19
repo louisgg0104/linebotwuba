@@ -26,7 +26,7 @@ app = Flask(__name__)
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 # Channel Access Token
 line_bot_api = LineBotApi(
-    'QQfRtT616WDzpgdI4nqi35t2yNOm1Wl7o38JgTkkUhX4LshwXxVCMyTE6i4rg7TuP7hV3h5R4wQmn1yvnVs')
+    'QQfRtT616WDzpgdI4nqi35t2yNOm1Wl7o38JgTkkUhX4LshwXxVCMyTE6i4rg7TuP7hV3h5R4wQmn1yvnVs+z2VGnHPqOODe4q42U5vzHFxaK9NC7kFE0sePKgaEFVHHd0T3xNEpZCab1AJ8FD0yTQdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
 handler = WebhookHandler('0f0acb797b22a4bc0cdf6f76d927dc2a')
 
